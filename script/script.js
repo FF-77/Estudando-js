@@ -9,3 +9,13 @@ function ocultando_texto(){
 function mostrando_texto() {
     var elemento_3 = document.getElementById('texto_1').style.display = 'block';
 }
+
+function oculta_mostra_texto(){
+
+    var elemento_4 = document.getElementById('texto_1').style.display;
+
+    if(elemento_4 == 'none')
+        document.getElementById('texto_1').style.display = 'block';
+    else
+        document.getElementById('texto_1').style.display = 'none';
+}
