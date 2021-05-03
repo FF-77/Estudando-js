@@ -6,13 +6,11 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-
         <div id='cabecalho'>
             <header>
                 <div id='meu_titulo'>
                     <h2>Sejam bem vindos a minha página de estudo!</h2>
-                </div>
-                    
+                </div>                   
                 <div id='menu_navegacao'>
                     <nav>
                         <a href="#">Sobre</a>
@@ -22,42 +20,55 @@
                 </div>
             </header>
         </div>
-
         <div id="central">
             <main>
                 <div>
                     <div id='texto'>
+                        <br>
                         <p id='colorindo'> Aprendendo a mudar a cor da fonte do texto. </p>
-                        <hr>
+                        <br>
                         <p id='texto_1'> Aprendendo a trabalhar com efeito de sumir e voltar o texto.</p>
-                        <hr>
+                        <br>
+                        <div id='bloco_imagem'>
+                            <img src="imagens/1.jpeg" id="i1">
+                            <img src="imagens/2.jpeg" id="i2">
+                            <img src="imagens/3.jpeg" id="i3">
+                            <img src="imagens/4.jpeg" id="i4">
+                        </div>
                     </div>
                     <div id='botoes'>
+                        <p style="font-size: 8pt; text-align: center;">Pressione um dos botões para mudar a cor do texto do lado esquerdo.</p>
                         <div id='bloco_1'>
                             <button onclick="aplicando_cor('black')">Preto</button>
                             <button onclick="aplicando_cor('red')">Vermelho</button>
                             <button onclick="aplicando_cor('blue')">Azul</button>
                             <button onclick="aplicando_cor('green')">Verde</button>
                         </div>
-                        <hr>
+                        
+                        <p style="font-size: 8pt; text-align: center;">Pressione um dos botões para ocultar ou mostra o texto do lado esquerdo.</p>
                         <div id='bloco_2'>
                             <button onclick="ocultando_texto()">Ocultar</button>
                             <button onclick="mostrando_texto()">Mostrar</button>
                             <button onclick="oculta_mostra_texto()">Ocultar/Mostrando</button>
                         </div>
-                        <hr>
+                        
+                        <p style="font-size: 8pt; text-align: center;">Click nos link abaixo para alternar entre a imagens do lado esquerdo.</p>
+                        <div id='bloco_3'>
+                            <a href="#" id="l1" onclick="alternar_imagem_1()">Imagem 1</a><br>
+                            <a href="#" id="l2" onclick="alternar_imagem_2()">Imagem 2</a><br>
+                            <a href="#" id="l3" onclick="alternar_imagem_3()">Imagem 3</a><br>
+                            <a href="#" id="l4" onclick="alternar_imagem_4()">Imagem 4</a>
+                        </div>
                     </div>
                 </div>
             </main>
         </div>
-
         <div id='rodape'>
             <footer>
-
                 <p>Contruido por F.F. 2021.</p>
                 <script src="script/script.js"></script>
+                <hr>
             </footer>
-        </div>
-        
+        </div>      
     </body>
 </html>

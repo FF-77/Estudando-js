@@ -28,6 +28,7 @@ body {
     padding: 10px;
     border-radius: 0.4rem;
 }
+
 #menu_navegacao a:hover {
     background-color: darkturquoise;
     color: black;
@@ -47,6 +48,11 @@ body {
     font-family: sans-serif;
 }
 
+#bloco_imagem {
+    margin-top: 2%;
+    margin-left: 35%;
+}
+
 #botoes {
     width: 41%;
     min-height: 500px;
@@ -64,9 +70,31 @@ body {
     margin-top: 3%;
 }
 
+#i2 {
+    display: none;
+}
+
+#i3 {
+    display: none;
+}
+
+#i4 {
+    display: none;
+}
+
 #bloco_2 {
     margin-top: 2.8%;
 }
+
+#bloco_3 {
+    margin-left: 4%;
+    margin-top: 4%;
+}
+
+#bloco_3 a {
+    text-decoration: none;
+}
+
 #rodape p {
     color: white;
     text-align: center;
@@ -78,4 +106,3 @@ body {
     clear: both;
     margin: -0.5%;
 }
-
